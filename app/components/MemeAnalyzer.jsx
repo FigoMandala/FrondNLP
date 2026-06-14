@@ -107,7 +107,7 @@ export default function MemeAnalyzer() {
           <div className={`w-2 h-2 rounded-full ${isApiReady ? 'bg-green-400 animate-pulse' : 'bg-red-400'}`} />
           <span>Status API: {isApiReady ? 'Tersambung' : 'Terputus'}</span>
           {!isApiReady && (
-            <span className="text-xs ml-auto">Jalankan: cd backend &amp;&amp; python app.py</span>
+            <span className="text-xs ml-auto">Menghubungkan ke server...</span>
           )}
         </div>
 
